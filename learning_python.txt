@@ -1,0 +1,3 @@
+in python you can print
+in python you can open files
+in python you can add integers
