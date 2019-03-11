@@ -27,3 +27,11 @@ if str(721813) in huge_pi:
     print("number in first million digits of pi")
 
 number_file.close()
+
+
+try:
+    answer =5/1
+except ZeroDivisionError:
+    print("cant divide by 0")
+else:
+    print(answer)
