@@ -22,5 +22,5 @@ def word_count(book, word='sawyer'):
 
 if __name__ == '__main__':
     print(word_count('sawyer.txt'))
-    print(word_count('dogs.txt'))
+    print(word_count('dogs.txt', 'fido'))
     print(word_count('saw.txt'))
