@@ -1,5 +1,5 @@
 """
-Problem 10-8 of Python Crash Course
+Problem 10-9 of Python Crash Course
 """
 
 
@@ -8,7 +8,7 @@ def print_file(filename):
         with open(filename) as file:
             print(file.read())
     except FileNotFoundError:
-        print("File not found")
+        pass
 
     file.close()
 
