@@ -22,10 +22,25 @@ def get_new_username():
 def greet_user():
     """Greet the user by name."""
     username = get_stored_username()
+    loop = True
+
     if username:
-        print("Welcome back, " + username + "!")
+        while loop:  # determines if this is a returning user
+            response = input("Are you " + username + '? (y/n) ')
+            if response == 'y':
+                print("Welcome back, " + username + "!")
+                loop = False
+            elif response == 'n':
+                username = get_new_username()
+                print(
+                    "We'll remember you when you come back, " +
+                    username + "!")
+                loop = False
+
     else:
         username = get_new_username()
         print("We'll remember you when you come back, " + username + "!")
 
-greet_user()
+
+if __name__ == '__main__':
+        greet_user()
