@@ -10,6 +10,13 @@ try:  # attempts to load previous sessions number
         prev_fav_number = json.load(read_file)
     print("Your last fav number was: " + prev_fav_number)
     read_file.close()
+
+    # Then prompts for a new favorite number
+    fav_number = input("What is your favorite number? ")
+    with open(filename, 'w') as file:
+        json.dump(fav_number, file)
+    file.close()
+
 except FileNotFoundError:  # if first time prompts for the number
     fav_number = input("What is your favorite number? ")
     with open(filename, 'w') as file:
