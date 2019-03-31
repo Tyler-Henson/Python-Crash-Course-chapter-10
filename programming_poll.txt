@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 d
 f
 fdf
@@ -5,3 +6,12 @@ ggg
 hhh
 fun maths
 addition!
+=======
+d
+f
+fdf
+ggg
+hhh
+fun maths
+addition!
+>>>>>>> d6cebe3bac15c85979ad1f97188c8d67d987d0ae

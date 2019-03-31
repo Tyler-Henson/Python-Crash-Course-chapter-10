@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 in python you can print
 in python you can open files
+=======
+in python you can print
+in python you can open files
+>>>>>>> d6cebe3bac15c85979ad1f97188c8d67d987d0ae
 in python you can add integers
